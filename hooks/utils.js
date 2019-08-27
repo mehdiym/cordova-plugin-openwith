@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const PLUGIN_ID = 'cc.fovea.cordova.openwith';
+const PLUGIN_ID = 'mehdiym.cordova.openwith';
 const BUNDLE_SUFFIX = '.shareextension';
 
 function getPreferences(context, projectName) {

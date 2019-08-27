@@ -145,7 +145,7 @@ Use the `ANDROID_EXTRA_ACTIONS` to accept additional actions. The variable shoul
 
 ```
 MY_EXTRA_ACTIONS='<action android:name="android.intent.action.VIEW" />'
-cordova plugin add cc.fovea.cordova.openwith \
+cordova plugin add mehdiym.cordova.openwith \
   --variable ANDROID_MIME_TYPE="image/*" \
   --variable "ANDROID_EXTRA_ACTIONS=$MY_EXTRA_ACTIONS"
 ```
