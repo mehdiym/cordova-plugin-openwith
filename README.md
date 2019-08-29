@@ -111,7 +111,7 @@ You need to config the ios app through your config.xml file, so the Entitlements
 Here's the promised one liner:
 
 ```
-cordova plugin add https://github.com/JochenHeizmann/cordova-plugin-openwith.git \
+cordova plugin add https://github.com/mehdiym/cordova-plugin-openwith.git \
   --variable ANDROID_MIME_TYPE="text/plain" \
   --variable IOS_URL_SCHEME=xxx \
   --variable IOS_UNIFORM_TYPE_IDENTIFIER=public.plain-text \
